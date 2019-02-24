@@ -1,0 +1,147 @@
+body,
+html {
+    width: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #23214c;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    background: #ebedf1;
+}
+
+main>article {
+    flex: 1;
+}
+
+header,
+footer {
+    background: #5ebd7d;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+header,
+footer,
+article,
+aside {
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    top: 8px;
+    position: relative;
+}
+
+article {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.summary {
+    margin-left: 2rem;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-container li {
+    margin-right: 3rem;
+}
+
+.nav-container li:last-of-type {
+    margin: 0;
+}
+
+.nav-container ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.15s ease-in-out;
+}
+
+footer {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-container a:hover,
+.nav-container a:focus {
+    color: #fff;
+}
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-container span {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #888;
+    margin: 0.25rem 0 0 0;
+}
+
+.show-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
